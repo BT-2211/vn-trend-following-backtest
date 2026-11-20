@@ -1,0 +1,15 @@
+,Golden cross 50/200
+Sharpe,1.042
+IS,1.138
+OOS,0.805
+OOS_start,2023-07-07
+stocks_won,4
+T1 OOS Sharpe >= 0.5,True
+T2 OOS > 0 in >= 2 of 3 splits,True
+T3 IS/OOS <= 2,True
+T4 worst month >= -15%,True
+T5 MaxDD >= -30%,False
+T6 Sharpe >= buy-and-hold,True
+T7 beats buy-and-hold in >= 6 of 10 stocks,False
+n_pass,5
+grade,SILVER

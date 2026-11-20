@@ -1,0 +1,10 @@
+,value
+CAGR before fees and tax,0.1606955023177179
+CAGR after fees and tax,0.15732137791893264
+Share of time in the market,0.6149888143176734
+Round trips per stock per year,0.7187919463087249
+Out-of-sample start (70% split),2023-07-07
+"Sharpe in-sample, golden cross",1.1383871114939188
+"Sharpe in-sample, buy-and-hold (daily rebalanced)",0.985528775560784
+"Sharpe out-of-sample, golden cross",0.8054123907653705
+"Sharpe out-of-sample, buy-and-hold (daily rebalanced)",1.0566548901737582
