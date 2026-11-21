@@ -72,10 +72,12 @@ report/          research report (PDF and LaTeX), added with the final version
 - Cash earns no interest.
 - One period (2016–2026); the 21-rule grid was chosen by the author.
 - The 10-stock portfolio averages daily returns, i.e. it is rebalanced to equal weights every day without rebalancing costs. `baseline_stats.csv` also reports a true buy-and-hold (no rebalancing) for comparison.
+- The short-selling comparison is hypothetical and simplified: it ignores borrowing costs and T+2 for short positions.
+- HOSE suspended trading on 23–24 January 2018 after an order-matching system failure on 22 January. The data keeps these two days with zero volume and unchanged prices; no trades occur in the backtest on these days, so the effect on results is negligible.
 
 ## Acknowledgements
 
-Developed during the one-to-one course "Quant Project for Study-Abroad Applications" under the mentorship of ______. The lab notebooks and core functions come from the course materials; `qlab.py` and `run_all.py` combine them into one pipeline.
+Developed during the one-to-one course "Quant Project for Study-Abroad Applications" under the mentorship of Nguyen Van Thanh. The lab notebooks and core functions come from the course materials; `qlab.py` and `run_all.py` combine them into one pipeline.
 
 ## References
 
