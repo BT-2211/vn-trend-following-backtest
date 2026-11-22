@@ -42,7 +42,6 @@ run_all.py       runs the full study and writes every table and figure
 data/            vn_daily.csv
 outputs/         result tables (CSV), created by run_all.py
 figures/         charts (PNG) and the LaTeX results table, created by run_all.py
-notebooks/       Lab 01–07, the step-by-step notebooks
 report/          research report (PDF and LaTeX), added with the final version
 ```
 
