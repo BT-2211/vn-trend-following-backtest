@@ -60,10 +60,10 @@ report/          research report (PDF and LaTeX), added with the final version
 
 <!-- Fill in from outputs/ after running run_all.py. Every number must match the CSV files. -->
 
-- Golden cross 50/200: CAGR __%, Sharpe __, max drawdown __%
-- Buy-and-hold 10 stocks: CAGR __%, Sharpe __, max drawdown __%
-- Effect of T+2: __ | Effect of fees and tax: __
-- Robustness: __ of 7 tests passed (__); __ of 21 rules graded GOLD
+- Golden cross 50/200: CAGR 15.7%, Sharpe 1.04, max drawdown −31.6%
+- Buy-and-hold 10 stocks (Daily rebalanced): CAGR 21.0%, Sharpe 1.00, max drawdown −40.1%
+- Effect of T+2: none on the golden cross (Sharpe 1.04 with and without T+2) | Effect of fees and tax: CAGR 16.1% → 15.7% (about 0.3 percentage points per year); Sharpe 1.06 → 1.04
+- Robustness: 5 of 7 tests passed (SILVER); 14 of 21 rules graded GOLD
 
 ## Limitations
 

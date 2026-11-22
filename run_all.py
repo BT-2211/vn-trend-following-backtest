@@ -83,6 +83,7 @@ for name, strat in rule_strats.items():
         "T0, no costs": q.sharpe(q.run_portfolio(strat, stocks, ret, settlement=0, buy_cost=0, sell_cost=0)[0]),
         "T0, costs": q.sharpe(q.run_portfolio(strat, stocks, ret, settlement=0)[0]),
         "T+2, costs": q.sharpe(p_full),
+        "T+3, costs": q.sharpe(q.run_portfolio(strat, stocks, ret, settlement=3)[0]),
         "Round trips per stock per year": np.mean([b["trades"].sum() / 2 / years for b in per_full.values()]),
     }
 pd.DataFrame(rules).T.to_csv(OUT / "vn_rules_effect.csv")
